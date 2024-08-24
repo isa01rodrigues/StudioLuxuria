@@ -1,0 +1,698 @@
+.site 
+{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  
+ }
+
+body{
+    background-color: #e9d3ff;
+}
+
+h1, li, a{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*********************************************************/
+/**PAGINA ERRO**/
+.Erro404 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.5em ;
+    color: #0D204D;
+    text-align: center;
+}
+
+.Erro404 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em ;
+    color: #F0C310;
+    text-align: center;
+
+}
+
+.Erro404 h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: #0D204D;
+    text-align: center;
+}
+/*********************************************************/
+/**FUNDO**/
+.fundo{
+    
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: #0D204D;
+    position: absolute;
+    left: 1460px;
+    top: 0px;
+    width: 148px;
+    height:1390px;
+    z-index: -24;
+}
+
+
+/*********************************************************/
+/**               CABEÇALHO                             **/
+#menuFixo{
+    background-color: #666699;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+}
+#menuFixo a{
+    text-decoration: none;
+}
+
+header {
+    background-color: #666699;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div h1 {
+    color: #e9d3ff;
+    padding: 25px;
+    font-size: 2em;
+    text-align: center; 
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div ul {
+    display: flex;
+}
+
+header div a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+    padding: 3%;
+}
+
+.menu ul {
+    margin-left: 25%;
+}
+
+.menu ul li {
+    padding: 10px 0;
+}
+
+
+.menu a {
+    color: #F0C310;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 15px;
+}
+
+.menu a:hover {
+    color: #e9d3ff;
+}
+
+/*Menu Fixo*/
+.menufixo {
+    position: fixed;
+    z-index: 9999;
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    background: rgb(255, 255, 255, 0.8);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.menufixo .topoContato {
+    display: none;
+}
+
+
+
+/*********************************************/
+
+/*********************************************************/
+/**                      MAIN                          **/
+
+.divisor
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/**********************************************************/
+/**               CONTEUDO H1 E PARAGRAFO               **/
+
+.conteiner
+{
+    width: 600px;
+    padding: 60px;
+}
+
+
+.conteudo
+{
+    width: 400px;
+    height: 490px;
+    background: #666699;
+    margin: 37px;
+    padding-top: 30%;
+    border-radius: 10px;
+}
+
+.conteudo h1
+{
+    color: #e9d3ff;
+    font-size: 4.5em;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/**********************************************************/
+/**              SEÇÃO BANNER                           **/
+
+.carrosel
+{
+    width: 600px;
+    padding: 120px;
+}
+
+.carrosel img{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius:10px ;
+}
+
+/********************************************************/
+/* PAGINA CONTATO***/
+
+
+/******Fundo*********/
+
+
+
+/*******Campos do Formulário**********/
+
+.formulario h1{
+    color:#F0C310;
+    font-size: 4.6em;
+}
+
+
+
+.formulario input{
+    background-color:#faf5ff;
+    width: 500px;
+    height: 27px;
+    border-radius: 10px;
+    border: aliceblue;
+    padding: 10px;
+
+  
+}
+
+.formulario #assunto{
+    
+  left: 384px;
+  top: 291px;
+  width: 500px;
+  height: 59px;
+  z-index: 12;
+}
+
+.formulario {
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    position: absolute;
+    left: 400px;
+    top: 156px;
+    width: 537px;
+    height: 59px;
+    z-index: 12;
+}
+
+.formulario div
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.btnWhats input{
+   
+    border-color: rgb(0, 0, 0);
+    background-color: #0D204D;
+    top: 265px;
+    width: 215px;
+    height: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnWhats input:hover{
+    background-color:#F0C310 ;
+    color: white;
+}
+
+/****************************************************/
+/**INFORMAÇÕES DO CONTATO**/
+
+.fundoInfo{
+    border-width: 0px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(102, 102, 153);
+    position: absolute;
+    left: 1060px;
+    top: 142px;
+    width: 506px;
+    height: 486px;
+    z-index: 11;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(54, 40, 204, 0.2), 0 5px 10px 0 rgba(195, 149, 233, 0.19);
+  }
+
+  .fundoInfo ul{
+    padding: 12px;
+  }
+
+  .fundoInfo li{
+    padding: 23px;
+    color:  #e9d3ff;
+    list-style-type: none;
+  }
+
+  /**************************************************/
+  /**   pagina de cupons**/
+
+.areaCupom{
+    display: flex;
+    justify-content: space-around;
+}
+a
+{
+    text-decoration: none;
+}
+
+  .fundoCupons{
+    background-color: rgb(102, 102, 153);
+    width: 400px;
+    height: 200px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: burlywood;
+    margin: 33.3px;
+    box-shadow: 0 8px 16px 0 rgb(54 40 204 / 68%), 
+    0 15px 10px 0 rgba(195, 149, 233, 0.19);
+}
+
+.bannerCupom img{
+width: 100%;
+}
+
+.cupom {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Ajuste para elementos específicos */
+.cupom > div:first-child {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 45px;
+    max-width: 200px;
+}
+
+.botao-cupom{
+    margin: 10px;
+    background-color: #eedc96;
+}
+
+.cupom h2
+{
+    color: #e9d3ff;
+}
+.cupom p{
+    color:#e9d3ff;
+}
+ strong
+{
+    color: #0D204D;
+}
+
+.cupom > div:last-child {
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+   
+}
+
+.cupom > div:last-child img{
+  
+    max-width: 200px;
+   max-height: 200px;
+}
+/**************************************************************/
+/*PAGINA SERVIÇOS ****/
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.servicos div:first-child{
+    padding: 1.5em;
+    background:#666699;
+    border-radius: 10px;
+}
+
+.servicos div:first-child h2{
+    text-align: center;
+    font-size: 1.5em;
+    color:#F0C310;
+}
+.servicos div:first-child p {
+    text-align:start;
+    padding: 10%;
+    color: #e9d3ff;
+
+}
+
+.servicos div:last-child{
+    padding: 1.5em;;
+}
+.servicos div:last-child img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/**************************************************/
+.servicos1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.servicos1 div:first-child{
+    padding: 1.5em;;
+}
+.servicos1 div:first-child img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.servicos1 div:last-child{
+    padding: 1.5em;
+    background:#666699;
+    border-radius: 10px;
+}
+
+.servicos1 div:last-child h2{
+    text-align: center;
+    font-size: 1.5em;
+    color:#F0C310;
+}
+.servicos1 div:last-child p {
+    text-align:start;
+    padding: 10%;
+    color: #e9d3ff;
+
+}
+
+/*********************************************************/
+.servicos2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.servicos2 div:first-child{
+    padding: 1.5em;
+    background:#666699;
+    border-radius: 10px;
+}
+
+.servicos2 div:first-child h2{
+    text-align: center;
+    font-size: 1.5em;
+    color:#F0C310;
+}
+
+.servicos2 div:first-child p {
+    text-align:start;
+    padding: 10%;
+    color: #e9d3ff;
+}
+
+.servicos2 div:last-child{
+    padding: 1.5em;;
+}
+.servicos2 div:last-child img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/****************************************************/
+/**PAGINA AGENDA * DASHBORD * INDEX**/
+/*                 CORPO FORMULARIO PRINCIPAL                   */
+
+.blocoCad {
+    display: flex;
+}
+
+.conteudoCad{
+    background: #0D204D;
+    width: 210px;
+    height: 700px;
+}
+
+.conteudoCad {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudoCad div:nth-child(2) ul {
+    display: flex;
+    
+}
+
+.conteudoCad div:nth-child(2) ul li {
+    color: #34495e;
+    padding: 11px;
+}
+
+
+.conteudoCad ul li {
+    list-style: none;
+    padding: 20px;
+    padding-top: 2px;
+}
+
+.conteudoCad a {
+    text-decoration: none;
+}
+
+.conteudoCad a {
+    color: #e9d3ff;
+    font-size: 1.3em;
+}
+
+.conteudoCad a:hover {
+    color: #f1c40f;
+}
+
+.conteudoCad div {
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+/*********************************************************/
+/*                   ADMIN                           */
+
+.BOX{
+
+    width: 85%;
+    height: 100%;    
+    padding-left: 1%;
+}
+
+.box th {
+    background-color: #abbde9;
+    width: 9%;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box tr{
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+.icon-link{
+    color:#F0C310;
+}
+
+.box h2{
+    color: #F0C310;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+
+}
+
+/**FORMULARIO **/
+.formulario-Cadastrar input{
+    background-color: #faf5ff;
+    width: 800px;
+    height: 27px;
+    border-radius: 10px;
+    border: aliceblue;
+    padding: 10px;
+}
+
+.formulario-Cadastrar label{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.formulario-Cadastrar select{
+    background-color: #faf5ff;
+    width: 800px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.btnCad{
+    padding: 2%;
+    font-size: 2.2em;
+}
+
+.BTN button{
+    background-color: #666699;
+    width: 330px;
+    height: 45px;
+    color: #e9d3ff;
+    font-size: 1.2em;
+}
+
+.BTN button:hover{
+    background-color: #0D204D;
+    
+    
+}
+.elementoForm{
+    padding: 15px;
+}
+/************************************************/
+/**PAGINA PAINEL*/
+.box-clientes{
+    padding: 2.5%;
+}
+.box-clientes table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.box-clientes table, th, td {
+    border: 1px solid black;
+}
+.box-clientes th, td {
+    padding: 8px;
+    text-align: center;
+}
+.box-clientes th {
+    background-color: #666699;
+}
+
+/**AGENDA**/
+.box-agenda{
+padding: 1%;
+}
+
+.box-agenda table {
+ width: 100%;
+ margin: 0 auto;
+ border-collapse: collapse;
+ 
+}
+.box-agenda table, th, td {
+  border: 1px solid black;
+}
+.box-agenda th, td {
+ padding: 8px;
+text-align: center;
+}
+.box-agenda th {
+ background-color: #666699;
+}
+/**PG LOGIN**/
+.loginAdn{
+    background-image:url(../img/skinCareProdutos04.jpg)  ;
+   
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    left: 430px;
+    top: 100px;
+    border-radius: 10px;
+
+}
+.loginAdn{
+    padding: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+.loginAdn input{
+    background-color: #faf5ff;
+    width: 500px;
+    height: 27px;
+    border-radius: 10px;
+    border: aliceblue;
+    padding: 10px;
+}
+
+.loginAdn button{
+    background-color:#FDC8BA;
+    height: 35px;
+    border-radius: 10px;
+    border: aliceblue;
+    padding: 10px;
+
+}
+
+.loginAdn button:hover{
+    background-color:#E96B5D;
+}
